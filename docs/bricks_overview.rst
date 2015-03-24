@@ -174,7 +174,7 @@ automatically pushed the weight matrix and biases initialization
 configuration to its children.
 
     >>> mlp.initialize()
-    >>> mlp.children[1].params[0].get_value() # doctest: +SKIP
+    >>> mlp.children[0].params[0].get_value() # doctest: +SKIP
     array([[-0.38312393, -1.7718271 ,  0.78074479, -0.74750996],
            ...
            [ 1.32390416, -0.56375355, -0.24268186, -2.06008577]])
